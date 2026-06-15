@@ -1,0 +1,35 @@
+.et-fb-settings-options-tab .dggm_imagegallery .et-fb-icon,
+.et-fb-settings-options-tab .dggm_justifiedgallery .et-fb-icon,
+.et-fb-settings-options-tab .dggm_packerygallery .et-fb-icon{
+    margin: -7px 0 0 !important;
+}
+.et-fb-settings-options-tab .dggm_imagegallery svg,
+.et-fb-settings-options-tab .dggm_justifiedgallery svg,
+.et-fb-settings-options-tab .dggm_packerygallery svg{
+    max-width: 20px;
+    margin: 0 auto;
+}
+.et-fb-settings-options-tab .dggm_imagegallery,
+.et-fb-settings-options-tab .dggm_justifiedgallery,
+.et-fb-settings-options-tab .dggm_packerygallery{
+    background-size: initial !important;
+    background-repeat: no-repeat !important;
+    background-position: 4px 2px !important;
+    background-color: #FFF4EB !important;
+}
+.et-fb-settings-options-tab .dggm_imagegallery:hover,
+.et-fb-settings-options-tab .dggm_justifiedgallery:hover,
+.et-fb-settings-options-tab .dggm_packerygallery:hover{
+    background-color: #FFE9D7 !important;
+    background-image: url('../img/icon_hover.svg') !important;
+    background-size: initial !important;
+    background-repeat: no-repeat !important;
+    background-position: 4px 2px !important;
+}
+.et-fb-settings-options-tab [class^="dggm_"]
+{
+    background-image: url('../img/icon.svg') !important;
+    background-size: initial !important;
+    background-repeat: no-repeat !important;
+    background-position: 4px 2px !important;
+}
